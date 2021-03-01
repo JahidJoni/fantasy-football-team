@@ -1,6 +1,5 @@
 import { faArrowCircleRight, faDollarSign } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
 import './Hire.css'
 
 const Hire = (props) => {
