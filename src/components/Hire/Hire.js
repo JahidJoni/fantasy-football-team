@@ -13,7 +13,7 @@ const Hire = (props) => {
             <h2>Total  hired : {hire.length} </h2>
             <div className="selectedName">{
 
-               hire.map(player => <div>{player.name}  <FontAwesomeIcon icon= {faArrowCircleRight}/>  {player.salary} <FontAwesomeIcon icon= {faDollarSign}/></div>)
+               hire.map(player => <div>{player.name}  <FontAwesomeIcon icon= {faArrowCircleRight}/>  {player.salary} <FontAwesomeIcon icon= {faDollarSign}/>y</div>)
 
             }
             </div>
