@@ -1,0 +1,12 @@
+[{"id":1,"name":"Erling Haaland","current_club":"Borussia Dortmund","hire_cost":120,"salary":350,"nationality":"norway","image":"https://i.ibb.co/4PTBtps/haaland.jpg","position":"Forward"},
+{"id":2,"name":"Kylian Mbappe","current_club":"PSG","hire_cost":210,"salary":550,"nationality":"France","image":"https://i.ibb.co/56XRbj9/mbappe.jpg","position":"Forward"},
+{"id":3,"name":"Rodrygo Goes","current_club":"Real Madrid","hire_cost":80,"salary":255,"nationality":"Brazil","image":"https://i.ibb.co/xMsHfXM/rodrygo.jpg","position":"Forward"},
+{"id":4,"name":"Ansuman Fati","current_club":"Barcelona","hire_cost":75,"salary":231,"nationality":"Spain","image":"https://i.ibb.co/x6s3zRz/fati.jpg","position":"Forward"},
+{"id":5,"name":"Phil Foden","current_club":"Man City","hire_cost":65,"salary":328,"nationality":"England","image":"https://i.ibb.co/F7nr0X6/phoden.jpg","position":"Midfielder"},
+{"id":6,"name":"Fede Valvarde","current_club":"Real Madrid","hire_cost":80,"salary": 705,"nationality":"Uruguay","image":"https://i.ibb.co/WD3NcLj/valverde.jpg","position":"Midfielder"},
+{"id":7,"name":"Hakim Ziyech","current_club":"Chelsea","hire_cost":85,"salary":722,"nationality":"Morocco","image":"https://i.ibb.co/hX9Dm7x/ziyech.jpg","position":"Midfielder"},
+{"id":8,"name":"De Ligt","current_club":"Juventus","hire_cost":92,"salary":743,"nationality":"Netherland","image":"https://i.ibb.co/XjStHC4/delight.webp","position":"Defender"},
+{"id":9,"name":"Andy Robertson","current_club":"Liverpool","hire_cost":40,"salary":485,"nationality":"Scotland","image":"https://i.ibb.co/7pLXcTz/Robertson.jpg","position":"Defender"},
+{"id":10,"name":"Benjamin Pavard","current_club":"Bayern Munich","hire_cost":46,"salary":574,"nationality":"France","image":"https://i.ibb.co/mXsfjTk/1551624402-647056-1551624557-noticia-normal.jpg","position":"Defender"},
+{"id":11,"name":"Marquinhos","current_club":"PSG","hire_cost":91,"salary":606,"nationality":"Brazil","image":"https://i.ibb.co/0VnsMBK/marquinhos.webp","position":"Defender"},
+{"id":12,"name":"Alisson Becker","current_club":"Liverpool","hire_cost":88,"salary":502,"nationality":"Brazil","image":"https://i.ibb.co/jw5cxL2/alisson.jpg","position":"Goalkeeper"}]

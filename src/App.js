@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import Player from './components/Player/Player';
+import jsonData from './fakeData/myClub.json';
+import Hire from './components/Hire/Hire';
+
+
 
 function App() {
+  const [player, setPlayers] = useState([]);
+  const [hire, setHire] = useState([]);
+  const handleHirePlayer = (player) =>{
+    const newHire = [...hire, player]
+    setHire(newHire);
+  }
+
+  useEffect(() => {
+    const playerData = [...jsonData];
+    setPlayers(playerData);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Welcome! Hire and build your Dream team!</h1>
+      <h2>Available player to hire : {player.length}</h2>
+
+      <Hire hire={hire}></Hire>
+
+      <div className="player-container">
+        {
+          player.map(player => <Player key={player.id} player={player} handleHirePlayer={handleHirePlayer}></Player>)
+        }
+      </div>
+      <p className= "right">All right reserved by Jahid Joni</p>
     </div>
   );
 }
